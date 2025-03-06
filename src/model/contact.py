@@ -1,3 +1,9 @@
+import sys
+print(sys.path)
+
+from src.model.phone import Phone
+
+
 class Contact:
 
     def __init__(self, name, description=''):
